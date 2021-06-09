@@ -1,0 +1,6 @@
+<h:table>
+  <h:tr>
+    <h:td>Apple</h:td>
+	<h:td>Banana</h:td>
+  </h:tr>
+</h:table>

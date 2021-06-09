@@ -1,0 +1,45 @@
+Input
+
+{
+  "airline": "United",
+  "flightCode": "ER38sd",
+  "fromAirportCode": "LAX",
+  "toAirportCode": "SFO",
+  "departureDate": "May 21, 2016",
+  "emptySeats": 0,
+  "totalSeats": 200,
+  "price": 199,
+  "planeType": "Boeing 737"
+}
+
+
+
+output
+{
+  "data": {
+    "hub": "MUA",
+    "code": "SFO",
+    "airline": "United"
+  }
+}
+
+Dw
+{"data" : {
+"hub": "MUA"},
+"code": payload.toAirportCode,
+"airline" payload.airline
+}
+
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+  <hub>MUA</hub>
+  <flight airline="United">
+    <code>SFO</code>
+  </flight>
+  <flight airline="American">
+    <code>SFO</code>
+  </flight>
+  <flight airline="Delta">
+    <code>SFO</code>
+  </flight>
+</data>

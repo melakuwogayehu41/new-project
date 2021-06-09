@@ -18,6 +18,7 @@
 		<mule.maven.plugin.version>3.4.2</mule.maven.plugin.version>
 	</properties>
 
+i made adjestment on the poim file for the purpose of developememnt 
 	<build>
 		<plugins>
 			<plugin>
